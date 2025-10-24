@@ -2,12 +2,12 @@
   "name": "my-app",
   "private": true,
   "type": "module",
-  "scripts": {
-    "build": "react-router build",
-    "dev": "react-router dev",
-    "start": "react-router-serve ./build/server/index.js",
-    "typecheck": "react-router typegen && tsc"
-  },
+ "scripts": {
+  "build": "react-router build",
+  "dev": "react-router dev",
+  "start": "react-router serve",
+  "typecheck": "react-router typegen && tsc"
+},
   "dependencies": {
     "@radix-ui/react-label": "^2.1.7",
     "@radix-ui/react-separator": "^1.1.7",
